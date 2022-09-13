@@ -1,0 +1,104 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* border: 10px solid red;  */
+     background-color: #94B49F;
+    font-size:xx-large;
+     /* Con esto funciona sin bootstrap
+    width: 100%;
+   
+    height: 5vw;
+    */
+
+    /* padding: 10px; */
+    /* padding: 1rem; */
+
+     /* Con esto funciona sin bootstrap
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #94B49F;
+    */
+}
+header img{
+    max-width: fit-content;
+    width: 25vw;
+    height: 20vw;
+    padding: 0;
+    margin: auto;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 2.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: .50rem;
+}
+.main{
+    /* border: 10px solid blueviolet; */
+    width: 100%;
+    background-image: url('../img/banner2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.main h1{
+    font-family: 'Forum', cursive;
+    
+    color: #92A697;
+   padding: 2em;
+    text-align: center;
+}
+a{
+color:#DFF2E4;
+}
+.second_session{
+    width: 100%;
+    height: 600px;
+    background-color: #DFF2E4;
+    /* border: 10px solid red; */
+}
+.second_session{
+    display: flex;
+    -ms-flex-align: center;
+}
+.card{
+    padding: 1rem;
+    margin: auto;
+
+}
+
+/* main img{
+    height: 75vh;
+    width: 100%;
+    height: 100%;
+    
+} */
+
+/* .carousel-item {
+    background-size: contain;
+     border: 10px solid blue;
+     width: 100%;
+     height: 30%;
+    background: no-repeat center center scroll;
+} */
+
+@media (min-width: 768px){
+    header img {
+    
+        height: 15vw;
+       
+    }
+}
+@media (min-width: 992px){
+    header img {
+    
+        height: 10vw;
+       
+    }
+}
+
